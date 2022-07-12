@@ -1,0 +1,34 @@
+.container-fluid{
+    background-color: $segundoColor;
+    .logo { 
+        width: 100px;
+    }
+    .escudo:hover {
+        transform: scaleX(1.13);
+        transition: 1s;
+    }
+    .btnHead {
+        background-color: $mainColor;
+        border-color: $tercerColor;
+    }
+    .tit {
+        color: $mainColor;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: $textXxxl;
+    }
+    .link:hover {
+        transform: translateY(10px);
+        transition: transform 1s;
+    }
+    .ul {
+        text-decoration: none;
+        .a {
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Arvo', serif;
+            color: $tercerColor;
+            font-size: $textSm;
+        }
+    }
+
+}

@@ -1,0 +1,29 @@
+h1 {
+    color: $mainColor;
+    font-family: $mainFont;
+    font-size: $textXxxl;
+    margin-left: 0;
+}
+h2,
+h3 {
+    color: $segundoColor;
+    font-family: $mainFont;
+    font-size: $textXl;
+}
+h4{
+    color:$mainColor;
+    font-family: $segundaFont;
+    font-size: $textXs;
+    font-weight: bold;
+}
+p{
+    color: $mainColor;
+    font-size: $textXs;
+    font-family: $segundaFont;
+}
+.btnCard{
+    font-family: $segundaFont;
+    color: $segundoColor;
+    background-color: $mainColor;
+    font-size: $textXs;
+}

@@ -1,0 +1,21 @@
+.row{
+    .h2 {
+        margin-top: 50px;
+        border: $tercerColor;
+        font-size: $textXl;
+        background-color: $mainColor;
+        width: 90%;
+        text-align: center;
+    }
+    p {
+        font-family: 'Bebas Neue', cursive;
+        font-size: $textSm;
+        color: $mainColor;
+    }
+    .btnCard {
+        background-color: $mainColor;
+        font-family: 'Bebas Neue', cursive;
+        color: $segundoColor;
+        font-size: $textSm;
+    }
+}
