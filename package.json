@@ -243,5 +243,13 @@
     "yargs": "^17.5.1",
     "y18n": "^5.0.8"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebamurstein/SEBASTIANMURSTEIN38015SASS1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebamurstein/SEBASTIANMURSTEIN38015SASS1/issues"
+  },
+  "homepage": "https://github.com/sebamurstein/SEBASTIANMURSTEIN38015SASS1#readme",
   "description": ""
 }
