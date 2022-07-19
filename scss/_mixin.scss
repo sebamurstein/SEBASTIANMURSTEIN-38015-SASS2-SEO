@@ -1,6 +1,5 @@
-@mixin d-flex ($justify, $align){
-    display: flex;
-    flex-direction: column;
-    justify-content: $justify;
-    align-items: $align;
+@mixin tabla ($font, $color, $size){
+    font-family: $font;
+    color: $color;
+    font-size: $size;
 }

@@ -1,0 +1,75 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*fondos colores*/
+
+.bg-dark{
+	background-color: #262525
+}
+
+.bg-info{
+	background-color: #2F6DC1
+}
+
+/*end fondos */
+
+
+.contenedor{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, auto);
+}
+
+#encabezado{
+	padding: 20px;
+}
+
+	#encabezado img{
+		width: 40%;
+	}
+
+.box img{
+	width: 100%;
+}
+
+#pie{
+	text-align: center;
+	padding: 20px;
+}
+
+
+.main{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9, auto);
+	grid-row-gap: 6px;
+	margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px){
+	.main{
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 6px;
+	}
+
+	#encabezado img{
+		width: 25%;
+	}
+}
+
+@media only screen and (min-width:1200px){
+	.main{
+	grid-template-columns: repeat(3, 1fr);
+	}
+
+	#encabezado img{
+		width: 20%;
+	}
+}

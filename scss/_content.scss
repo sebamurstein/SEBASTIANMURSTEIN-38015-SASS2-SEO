@@ -8,7 +8,6 @@ h2,
 h3 {
     color: $segundoColor;
     font-family: $mainFont;
-    font-size: $textXl;
 }
 h4{
     color:$mainColor;
@@ -16,10 +15,9 @@ h4{
     font-size: $textXs;
     font-weight: bold;
 }
+
 p{
-    color: $mainColor;
-    font-size: $textXs;
-    font-family: $segundaFont;
+    @extend %parrafos;
 }
 .btnCard{
     font-family: $segundaFont;
@@ -27,3 +25,4 @@ p{
     background-color: $mainColor;
     font-size: $textXs;
 }
+

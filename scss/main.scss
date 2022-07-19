@@ -1,12 +1,16 @@
 @import "_variables";
 @import "_fonts";
 @import "_mixin";
-@import "_commons";
-@import "_header";
+@import "_extend";
 @import "_content";
+@import "_header";
 @import "_principal";
+@import "_fotospag";
+@import "_calendario";
+@import "_contacto";
 @import "_footer";
-* {
+
+* { 
     padding: 0;
     margin: 0;
     box-sizing: border-box;

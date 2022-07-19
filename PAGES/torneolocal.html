@@ -7,7 +7,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LA GALLARDETA</title>
+     <!-- META SEO -->
+     <meta name="description" content="La Gallardeta, toda la info del Club Atlético River Plate. Novedades y análisis de los partidos de River en el Torneo Local.">
+     <meta name="keywords" content="River Plate, fútbol argentino, fútbol, AFA, Superliga Argentina, Marcelo Gallardo, Estadio Monumental, Más Monumental, Millonario">
+     <meta name="author" content="Sebastián Murstein">
+    <title>LA GALLARDETA, toda la info de River en el Torneo Local</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -15,7 +19,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/main.css" />
     <!-- WOW JS -->
     <link rel="stylesheet" href="../CSS/animate.css" />
     <link rel="shorcut icon" href="../IMAGENES/favicon.png" />
@@ -28,7 +32,7 @@
           <a class="navbar-brand" href="../index.html">
             <img
               class="logo escudo escudo2"
-              src="../IMAGENES/escudoriver.png"
+              src="../IMAGENES/river.png"
               alt="escudo River Plate"
             />
           </a>
@@ -45,20 +49,46 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link link" aria-current="page" href="../PAGES/torneolocal.html"
+            <ul class="ul navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="a nav-item">
+                <a
+                  class="nav-link link"
+                  aria-current="page"
+                  href="../PAGES/torneolocal.html"
                   >TORNEO LOCAL</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link link" href="../PAGES/copalibertadores.html">COPA LIBERTADORES</a>
+              <li class="a nav-item">
+                <a class="nav-link link" href="../PAGES/copalibertadores.html"
+                  >COPA LIBERTADORES</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link link" href="../PAGES/mercadodepases.html">MERCADO DE PASES</a>
+              <li class="a nav-item">
+                <a class="nav-link link" href="../PAGES/mercadodepases.html"
+                  >MERCADO DE PASES</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link link" href="../PAGES/NOSOTROS.html" tabindex="-1">NOSOTROS</a>
+              <li class="a nav-item dropdown">
+                <a class="nav-link link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  GALERIA
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="a"><a class="dropdown-item" href="../PAGES/fotos.html">FOTOS</a></li>
+                  <li class="a"><a class="dropdown-item" href="../PAGES/videos.html">VIDEOS</a></li>
+                </ul>
+              </li>
+              <li class="a nav-item">
+                <a class="nav-link link" href="PAGES/calendario.html"
+                  >CALENDARIO</a
+                >
+              </li>
+              <li class="a nav-item">
+                <a
+                  class="nav-link link"
+                  href="../PAGES/NOSOTROS.html "
+                  tabindex="-1"
+                  >NOSOTROS</a
+                >
               </li>
             </ul>
           </div>
@@ -70,6 +100,18 @@
     <main class="mx-5">
       <section class="py-3">
         <div class="row">
+          <article class="art text-center col-sm-12 col-md-12 col-lg-6">
+            <h2 class="h2" id="artFixture">PRÓXIMAS FECHAS Y HORARIOS CONFIRMADOS</h2>
+            <img src="../IMAGENES/marcelogallardo.webp" class="imgLali img-thumbnail"
+            alt="imagen del partido entre River y Vélez"/>
+            <p class="pCopa">La Superliga Argentina de fútbol dio a conocer las fechas y horarios de los próximos partidos. En lo que respecta al Millonario, así se disputarán los próximos compromisos: FECHA 9 Jueves 21/07 21.30 horas vs Gimnasia(L); FECHA 10 Domingo 24/07 15.30 horas vs Aldosivi(V); FECHA 11 Domingo 31/07 20.30 horas vs Sarmiento(L); FECHA 12 domingo 07/08 20.30 horas vs Independiente(V); FECHA 13 sábado 13/08 20.30 horas vs Newell's(L); FECHA 14 miércoles 17/08 19 horas vs Arsenal(V); FECHA 15 domingo 21/08 18 horas vs Centra Córdoba(L).</p>
+          </article>
+          <article class="art text-center col-sm-12 col-md-12 col-lg-6">
+            <h2 class="h2" id="artVelez">CONCENTRADOS VS VÉLEZ</h2>
+            <img src="../IMAGENES/rivervelez.webp" class="imgLali img-thumbnail"
+            alt="imagen del partido entre River y Vélez"/>
+            <p class="pCopa">River volverá a visitar el José Amalfitani, esta vez por la octava fecha de la Superliga.Marcelo Gallardo y su cuerpo técnico decidieron concentrar a 20 futbolistas de cara al encuentro a disputarse el domingo a las 20:30 horas. Los concentrados son: ARQUEROS: Armani y Centurión; DEFENSORES: Maidana, Casco, González Pirez, Pinola, Martínez, Mammana, Gómez y Herrera; MEDIOCAMPISTAS: Zuculini, Simón, Quintero, Pochettino, Palavecino, Paradela, De La Cruz, Barco; DELANTEROS: Beltrán y Romero.</p>
+          </article>
           <article class="art text-center col-sm-12 col-md-12 col-lg-6">
             <h2 class="h2">BELTRÁN VOLVIÓ A SER TITULAR TRAS SU REGRESO DE COLÓN</h2>
             <img src="../IMAGENES/lucasbeltran.webp" class="imgLali img-thumbnail"

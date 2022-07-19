@@ -1,0 +1,14 @@
+h2{
+    @extend %titulos;
+}
+.table{
+    background-color: $segundoColor;
+    text-align: center;
+    margin: 20px 0;
+    th {
+        @include tabla ($segundaFont, $mainColor, $textXxl);
+    }
+    td{
+        @include tabla ($segundaFont, $tercerColor, $textMd);
+    }
+}
