@@ -44,24 +44,15 @@ h4 {
   background-color: white;
 }
 .container-fluid .logo {
-  width: 100px;
+  width: 100%;
 }
-.container-fluid .escudo:hover {
+.container-fluid .logo:hover {
   transform: scaleX(1.13);
   transition: 1s;
 }
 .container-fluid .btnHead {
   background-color: red;
   border-color: black;
-}
-.container-fluid .tit {
-  color: red;
-  font-family: "Stick No Bills", sans-serif;
-  font-size: 5rem;
-}
-.container-fluid .link:hover {
-  transform: translateY(10px);
-  transition: transform 1s;
 }
 .container-fluid .ul {
   text-decoration: none;
@@ -71,7 +62,11 @@ h4 {
   font-weight: bold;
   font-family: "Arvo", serif;
   color: black;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+.container-fluid .ul .a:hover {
+  transform: translateY(10px);
+  transition: transform 1s;
 }
 
 .row .h2 {
@@ -79,7 +74,7 @@ h4 {
   border: black;
   font-size: 3.5rem;
   background-color: red;
-  width: 90%;
+  width: 100%;
   text-align: center;
 }
 .row .btnCard {
@@ -89,8 +84,24 @@ h4 {
   font-size: 2rem;
 }
 
-main section div article a img {
-  width: 25vw;
+@media only screen and (min-width: 537px) {
+  aside section div article script {
+    width: 20%;
+    height: 10%;
+  }
+}
+.vid {
+  width: 75%;
+}
+
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  width: 90%;
 }
 
 .table {
@@ -101,12 +112,12 @@ main section div article a img {
 .table th {
   font-family: "Bebas Neue", cursive;
   color: red;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .table td {
   font-family: "Bebas Neue", cursive;
   color: black;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .artNos {
@@ -121,24 +132,31 @@ main section div article a img {
   box-sizing: border-box;
   border-radius: 10px;
   padding: 10px 20px;
-  margin-top: 10 px;
+  margin-top: 10px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
-.form input {
+.form .textForm {
   font-family: "Bebas Neue", cursive;
   color: black;
   font-size: 2.5rem;
-  width: 100%;
+  box-sizing: border-box;
+  padding: 7px;
+  margin-bottom: 5px;
+  border: none;
+}
+.form .mailForm {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  font-size: 2.5rem;
   box-sizing: border-box;
   padding: 7px;
   margin-bottom: 5px;
   border: none;
 }
 .form textarea {
-  min-height: 400%;
-  max-height: 400px;
   border: none;
-  width: 100%;
   padding: 7px;
   margin-bottom: 5px;
   font-family: "Bebas Neue", cursive;
@@ -150,6 +168,7 @@ main section div article a img {
   font-size: 4rem;
   background-color: red;
   border: none;
+  width: 100%;
 }
 
 .pie {
@@ -183,7 +202,7 @@ main section div article a img {
   box-sizing: border-box;
 }
 
-body {
+.body {
   background-image: url(../IMAGENES/estadiomonumental.webp);
   overflow-x: hidden;
   background-size: cover;

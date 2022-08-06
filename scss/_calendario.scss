@@ -6,9 +6,9 @@ h2{
     text-align: center;
     margin: 20px 0;
     th {
-        @include tabla ($segundaFont, $mainColor, $textXxl);
+        @include tabla ($segundaFont, $mainColor, $textXl);
     }
     td{
-        @include tabla ($segundaFont, $tercerColor, $textMd);
+        @include tabla ($segundaFont, $tercerColor, $textSm);
     }
 }
